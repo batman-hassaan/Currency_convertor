@@ -79,7 +79,7 @@ Contributions are welcome! If you'd like to improve this project:
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Screenshots
-![Screenshot of Currency Converter](screenshot.png)
+![Screenshot of Currency Converter](Screenshot.png)
 
 ## Acknowledgements
 - [Exchange Rate API](https://www.exchangerate-api.com/) for providing reliable exchange rate data.
