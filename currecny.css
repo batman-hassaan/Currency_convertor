@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #76b0dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+    background: #eeeeee;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: #0e3f74;
+}
+p{
+    color: #094c93;
+
+}
+
+label {
+    display: block;
+    padding-right: 7px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#amount {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+select {
+    width: 95%;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+select {
+    /* background: url('https://cdn-icons-png.flaticon.com/512/892/892115.png') no-repeat scroll 95% center / 15px 15px; */
+    background: url("https://flagcdn.com/us.svg") no-repeat scroll 95% center / 15px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#amount {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    appearance: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.convert-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.convert-btn:hover {
+    background-color: #0056b3;
+}
+
+.convert-btn:active {
+    background-color: #004080;
+    /* Even darker blue when clicked */
+}
+
+/* General styles for the select dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    appearance: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focused state for the select */
+#amount:focus,
+select:focus {
+    border-color: #484f56;
+    box-shadow: 0 0 5px rgba(100, 104, 108, 0.5);
+    outline: none;
+}
+
+option {
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+#result {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+}
+.currency-select img{
+    position: relative;
+}
+
+.currency-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.currency-select img {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+input {
+    color: #76b0dd;
+}
+
+
+@media screen and (max-width: 900px) {
+    .converter-container {
+        width: 300px;
+    }
+
+}
